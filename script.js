@@ -107,7 +107,7 @@ butnext.addEventListener('click',()=>{
                 imgif.style.display='none';
                 console.log('working')
                 dispfinal.style.display='block';
-                dispfinal.textContent=`Welcome ${username} . Thank you for joining Semcile .`
+                dispfinal.textContent=`Welcome ${username} . Thank you for joining Semicile .`
                 
                 
             }

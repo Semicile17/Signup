@@ -98,7 +98,7 @@ i.size{
     color: azure;text-align:center;
 }
 #usernamedesc{
-    margin-top:10px;
+    margin-top:8px;
 }
 .tag{
     font-size:14px;
@@ -120,16 +120,19 @@ i.size{
 .next{
     text-align: center;
     margin-top: 100px;
+    
 }
 #change{
     width: 140px;
     height: 40px;
+    font-size:16px;
     background-color: rgb(120, 225, 120);
     border: 2px solid azure;
     border-radius: 8px;
     cursor:pointer;
     font-family:'Poppins';
     font-weight:700;
+    box-shadow: azure 0px 2px 16px 0px;
 }
 #change:hover {
     width:143px;
@@ -196,4 +199,22 @@ img{
     text-align:center;
     font-size:8px;
     
+}
+@media only screen and (max-width:1300px){
+    .next{
+        
+        text-align: center;
+        margin-top: 50px;
+    }
+    .inprealname{
+        margin-top:12px;
+    }
+    input[type="range"]{
+    
+        height:10px;
+        width:83%;
+        accent-color:rgb(120, 225, 120);
+    
+    }
+
 }
